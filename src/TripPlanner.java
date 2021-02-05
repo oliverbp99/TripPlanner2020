@@ -10,6 +10,8 @@ public class TripPlanner {
         menu(input, beachList, skiList);
 
         showList(beachList, skiList);
+
+        System.out.println("hej");
     }
 
     private static void showList(ArrayList<BeachTrip> a1, ArrayList<SkiTrip> a2) {
